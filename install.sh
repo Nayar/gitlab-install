@@ -23,6 +23,7 @@ python --version
 sudo apt-get install -y python2.7
 
 # Make sure you can access Python via python2
+echo -e "\033[31m"
 python2 --version
 
 # If you get a "command not found" error create a link to the python binary
