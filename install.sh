@@ -3,7 +3,9 @@
 # run as root!
 #apt-get update -y
 #apt-get upgrade -y
-#apt-get install sudo -y
+apt-get install sudo -y
+
+sudo su
 
 # Install vim and set as default editor
 sudo apt-get install -y vim
